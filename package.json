@@ -1,0 +1,17 @@
+{
+  "name": "cobol-discord-bot",
+  "version": "1.0.0",
+  "main": "discordBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "calculate-string-similarity": "^1.0.9",
+    "fast-levenshtein": "^3.0.0",
+    "natural": "^8.0.1",
+    "openai": "^4.68.0"
+  }
+}
