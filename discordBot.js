@@ -74,7 +74,7 @@ client.on('messageCreate', async (message) => {
     // Ignore messages from bots
     if (message.author.bot) return;
 
-    if (message.mentions.has(client.user)) {
+    if (message.mentions.has(client.user) && message.content.trim().includes('help')) {
         const botCapabilities = [
             "I can roast users when you mention them and include the word 'ROAST'.",
             "I can respond to your messages and help with various tasks.",
